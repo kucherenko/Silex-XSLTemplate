@@ -1,8 +1,8 @@
-SilexXSLTemplate\ServiceProvider
+SilexXSLTemplate\\ServiceProvider
 ================================
 
 
-The *SilexXSLTemplate\ServiceProvider* provides integration with the `XSLTemplate
+The *SilexXSLTemplate\\ServiceProvider* provides integration with the `XSLTemplate
 <https://github.com/kucherenko/xsltemplate/>`_ template engine.
 
 Parameters
