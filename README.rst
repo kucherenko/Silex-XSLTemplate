@@ -1,9 +1,10 @@
 SilexXSLTemplate\\ServiceProvider
 ================================
 
-
-The *SilexXSLTemplate\\ServiceProvider* provides integration with the `XSLTemplate
+The *SilexXSLTemplate\\ServiceProvider* provides integration `Silex<http://silex.sensiolabs.org/>`_ microframework with the `XSLTemplate
 <https://github.com/kucherenko/xsltemplate/>`_ template engine.
+
+Works with PHP 5.3.2 or later.
 
 Parameters
 ----------
