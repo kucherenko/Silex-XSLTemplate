@@ -1,0 +1,6 @@
+[submodule "vendor/xsltemplate"]
+	path = vendor/xsltemplate
+	url = https://github.com/kucherenko/xsltemplate.git
+[submodule "vendor/Silex"]
+	path = vendor/Silex
+	url = https://github.com/fabpot/Silex
