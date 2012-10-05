@@ -17,9 +17,6 @@ Parameters
 * **xsltemplate.parameters** (optional): An associative array of xsltemplate
   parameters. Check out the xsltemplate documentation for more information.
 
-* **xsltemplate.class_path** (optional): Path to where the XSLTemplate
-  library is located.
-
 Services
 --------
 

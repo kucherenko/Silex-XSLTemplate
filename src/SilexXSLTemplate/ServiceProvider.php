@@ -61,10 +61,16 @@ class ServiceProvider implements ServiceProviderInterface {
             return $writer;
         });
 
-        if (isset($app['xsltemplate.class_path'])) {
-            $app['autoloader']->registerNamespaces(array(
-                'XSLTemplate'   => $app['xsltemplate.class_path'],
-            ));
-        }
+    }
+
+    /**
+     * Bootstraps the application.
+     *
+     * This method is called after all services are registers
+     * and should be used for "dynamic" configuration (whenever
+     * a service must be requested).
+     */
+    public function boot(Application $app)
+    {
     }
 }

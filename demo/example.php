@@ -6,15 +6,13 @@
  * @date   23.12.11
  */
 
-require_once 'silex.phar';
-require_once '../src/SilexXSLTemplate/ServiceProvider.php';
+require_once '../vendor/autoload.php';
 
 $app = new Silex\Application();
 
 $app->register(new SilexXSLTemplate\ServiceProvider(), array(
-    'xsltemplate.templates.path' => __DIR__ . '/xsl',
+    'xsltemplate.templates.path' => __DIR__ . '/xsl/',
     'xsltemplate.templates.url'  => 'xsl/',
-    'xsltemplate.class_path'     => __DIR__ . '/../vendor/xsltemplate/src',
 ));
 
 $app->get('/', function (Symfony\Component\HttpFoundation\Request $request) use ($app) {

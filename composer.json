@@ -1,0 +1,29 @@
+{
+    "name": "kucherenko/silex-xsltemplate",
+    "type": "library",
+    "description": "The SilexXSLTemplate\\ServiceProvider provides integration Silex microframework with the XSLTemplate template engine.",
+    "keywords": ["xslt", "templates", "template engine", "xml", "silex"],
+    "homepage": "https://github.com/kucherenko/Silex-XSLTemplate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Kucherenko",
+            "email": "andrey@kucherenko.org",
+            "homepage": "http://kucherenko.org/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "kucherenko/xsltemplate": ">1.0-dev",
+        "silex/silex": ">1.0-dev"
+    },
+    "autoload": {
+        "psr-0": { "SilexXSLTemplate": "src/" }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
